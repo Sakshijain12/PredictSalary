@@ -3,7 +3,7 @@ from predict import predict_page
 from explore import explore_page
 
 
-page = st.sidebar.selectbox("Explore Or Predict", ("Explore", "Predict"))
+page = st.sidebar.selectbox("Explore Or Predict", ("Predict", "Explore"))
 
 if page == "Predict":
     predict_page()
